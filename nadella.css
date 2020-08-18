@@ -1,0 +1,94 @@
+:root
+{
+  font-size: 16px;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+}
+.container
+{
+  
+  display: flex;
+  flex-direction: column; 
+ margin: 5vw;
+
+}
+
+ .banner .card
+{
+background: #2c2c2c;
+display: flex;
+    flex-direction: column;
+border: 1px solid #2c2c2c; 
+border-radius: 10px;
+  padding: 10px;
+ box-shadow: 0px 3px 20px 2px #35eea4; 
+
+}
+ .banner .card .heading
+{
+  font-size: 50px;
+  font-weight: 500;
+  color: #35eea4;
+ font-family: "Playfair Display", serif;
+}
+
+.banner .card .subheading
+{
+  font-size: 20px;
+  color:#35eea4 ;
+  text-align: left;
+  font-style: italic;
+  font-family: "Playfair Display", serif;
+  padding: 5px;
+
+}
+ .banner .card button
+{
+  font-size: 20px;
+
+  color:#35eea4;
+  font-style: oblique;
+ font-family: "Playfair Display", serif;
+  padding: 10px;
+  background: none;
+  letter-spacing: 8px;
+
+
+}
+.banner .card button:hover
+{
+  cursor: pointer;
+  box-shadow: 5px 10px 18px #35eea4; 
+}
+
+.row
+{
+ display: flex;
+    flex-direction: row;
+align-items: center;
+  margin-top: 30px;
+}
+.paragraph
+{
+  font-size: 1rem;
+  color: black;
+  float: left;
+  width: 1000px;
+
+}
+.row .my-image
+{
+  width: 250px;
+  border-style: round;
+   border: 1px solid #35eea4;
+   float: right;
+    border-radius: 5px;
+  box-shadow: 5px 10px 18px #35eea4; 
+}
+.row .icon
+{
+  width: 40px;
+}

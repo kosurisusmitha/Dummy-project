@@ -1,0 +1,20 @@
+:root {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.first-box
+{
+	display: block;
+		margin: 5vw;
+	background: #2c2c2c;
+height: 150%;
+
+}
+.first-box .second-box .heading
+{
+
+}

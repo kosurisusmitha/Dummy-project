@@ -1,0 +1,77 @@
+:root {
+font-size: 25px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: green;
+
+}
+.container-item
+{
+	background-color: yellow;
+
+}
+.container
+{
+margin: 5vw;
+}
+.container-font
+{
+text-align: center;
+color: white;
+padding-top: 10%
+}
+
+
+@media	screen and	(min-width: 768px) {
+	.container-item
+{
+	background-color: pink;
+}
+.container
+{
+margin: 20vw;
+}
+.container-font
+{
+text-align: left;
+color: black;
+padding-top: 40%
+}
+}
+@media screen and (min-width :480px) and (max-width: 767px)
+{
+		.container-item
+{
+	background-color: purple;
+	height: 30vw;
+}
+.container
+{
+margin: 20vw;
+}
+.container-font
+{
+text-align: left;
+font-size: 3rem;
+color: black;
+padding-top: 40%
+}
+}
+@media screen and (max-width :480px) {
+.container-item
+{
+	background-color: red;
+	height: 60vw;
+}
+
+.container-font
+{
+text-align: left;
+font-size: 5rem;
+color: grey;
+padding-top: 60%
+}
+}

@@ -1,0 +1,19 @@
+.parent
+{
+	background: tomato;
+	height: 50vh;
+	width: 50vw;
+}
+
+.child
+{
+		background: lime;
+	height: 47.5vh;
+	width: 60vw;
+}
+.second-child
+{
+		background: khaki;
+	height: 3vmin;
+	width: 60vmin;
+}

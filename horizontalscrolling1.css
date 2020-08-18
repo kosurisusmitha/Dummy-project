@@ -1,0 +1,35 @@
+:root
+{
+	font-size: 16px;
+	
+}
+
+.parent
+{
+	
+	background-color: red;
+	width: 30vh;
+	height: 30vh
+	
+}
+.child
+{
+	display: inline-block;
+background-color: lime;
+text-align: right;
+margin-bottom: 5px;
+float: right-bottom;
+width: 10vh;
+	height: 10vh;	
+	
+}
+.firstchild
+{
+display: block;
+	
+	background-color: purple;
+	text-align: left;
+	width: 10vh;
+	height: 10vh;	
+	}
+	
